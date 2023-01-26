@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "medleydb_instruments"
+version = "1.0.0"
+description = "A tool to query MedleyDB annotations and metadata."
+authors = ["Dylan Sechet"]
+license =  "MIT"
+readme = "README.md"
+packages = [{include = "medleydb_instruments"}]
+repository = "https://github.com/Seon82/medleydb_instruments"
+keywords = ["medleydb", "instruments", "music"]
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+isort = "^5.10.1"
+ruff = "^0.0.235"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[tool.ruff]
+ignore-init-module-imports = true
+line-length = 120
