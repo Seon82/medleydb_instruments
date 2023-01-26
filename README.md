@@ -1,5 +1,5 @@
 # medleydb_instruments
-[![Linter Actions Status](https://github.com/Seon82/medleydb_instruments/actions/workflows/lint.yml//badge.svg?branch=main)](https://github.com/Seon82/medleydb_instruments/actions)
+[![Linter Actions Status](https://github.com/Seon82/medleydb_instruments/actions/workflows/lint.yml//badge.svg?branch=master)](https://github.com/Seon82/medleydb_instruments/actions)
 
 `medleydb_instruments` is a tool to seemlessly query MedleyDB annotations and instrument metadata.
 
